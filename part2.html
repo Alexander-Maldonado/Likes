@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes part 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="case">
+            <div class="header"><h1 id="network">Network</h1></div>
+            <div id="topic"><h1>Your Feed</h1></div>
+            <div class="left">
+                <div class="profile">
+                    <div id="picture"><img src="favpng_samsung-galaxy-a8-a8-user-login-telephone-avatar.png" alt="user" width="75" height="75"></div>
+                    <div><a href="#">Add an Avatar</a></div>
+                    <h2 id="name">James Doe</h2>
+                </div>
+            </div>
+            <div class="right">
+                <div class="box">
+                    <div class="innerbox">
+                        <div class="likes">
+                            <h3>Neil M</h3>
+                            <p><a id="number">0</a> like(s)</p>
+                            <button id="button" type="button" onclick="up(this)">Like</button>
+                        </div>
+                        <div class="below">
+                            <p id="text">I just set up this new discord bot, let me know what you all think. <a href="#">Link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="innerbox">
+                        <div class="likes">
+                            <h3>Nichole K</h3>
+                            <p><a id="nk">0</a> like(s)</p>
+                            <button id="button" type="button" onclick="nichole(this)">Like</button>
+                        </div>
+                        <div class="innerbox">
+                            <p id="text">Just finished my <a href="#">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="innerbox">
+                        <div class="likes">
+                            <h3>Jim R</h3>
+                            <p><a id="jr">0</a> like(s)</p>
+                            <button id="button" type="button" onclick="jim(this)">Like</button>
+                        </div>
+                        <div class="innerbox">
+                            <p id="text">I can't sleep listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

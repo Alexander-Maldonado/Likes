@@ -1,0 +1,95 @@
+*{
+    margin: 0px auto;
+}
+
+.container{
+    height: 900px;
+    width: 800px;
+    display: flex;
+}
+
+.header{
+    width: inherit;
+    height: 50px;
+    background-color: black;
+    color: white
+}
+
+#network{
+    margin: 0px 20px;
+}
+
+.case{
+    height:inherit;
+    width: inherit;
+}
+
+#topic{
+    text-align: center;
+    margin: 10px;
+}
+
+.left{
+    width: 250px;
+    height: 400px;
+    display: inline-flex;
+    margin: 10px 15px 0px 0px;
+}
+
+.profile{
+    height: 250px;
+    width: 150px;
+    display: grid;
+    border: black solid;
+}
+
+#picture{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+}
+
+
+#name{
+    text-align: center;
+}
+
+.right{
+    width: 500px;
+    height: 700px;
+    display: inline-table;
+    vertical-align: top;
+    margin: 10px 0px 0px 15px;
+}
+
+.box{
+    margin: 0px 0px 20px 0px;
+    height: 150px;
+    border: black solid;
+}
+
+.innerbox{
+    height: 70px;
+    width: inherit;
+    margin: 25px;
+}
+
+.likes{
+    display: flex;
+}
+
+#button{
+    background-color: yellow;
+    box-shadow: black 5px 5px 5px;
+}
+
+.below{
+    margin: 10px;
+    display: flex;
+}
+
+#text{
+    font-size: 20px;
+}
